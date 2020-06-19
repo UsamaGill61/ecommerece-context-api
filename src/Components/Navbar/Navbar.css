@@ -1,0 +1,94 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  z-index: 20;
+}
+.fa-mobile-alt {
+  color: #f4c613;
+  margin: 0 20px;
+}
+.product-heading {
+  color: #f4c613;
+}
+.product-heading:hover {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.fa-mobile-alt:hover {
+  color: white;
+  transition: all 0.1s ease-in-out;
+}
+.stylebtn {
+  color: #f4c613;
+  border: 1px solid #f4c613;
+  transition: all 0.3s ease-in-out;
+}
+.stylebtn:hover {
+  color: white;
+  border: 1px solid white;
+}
+.navbar-toggler {
+  color: #f4c613;
+}
+.sidemenu {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  background-color: #343A40;
+  z-index: 1;
+  padding-top: 100px;
+  overflow-x: hidden;
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.sidemenu a {
+  padding: 8px 8px 18px 94px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #a0a0a0;
+  display: block;
+}
+
+.sidemenu a:hover {
+  color: #f4c613;
+}
+.sidemenu .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 32px;
+}
+#mainbox {
+  font-size: 24px;
+  cursor: pointer;
+}
+.nav-item {
+  padding-left: 30px;
+}
+.nav-item-2 {
+  padding-left: 8px;
+}
+.navbar-nav {
+  margin-right: 10px;
+}
+.nav-link {
+  color: #a0a0a0;
+  font-size: 15px;
+  font-family: "Raleway";
+  margin-right: 30px;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #f4c613;
+}
+.Navbar-text{
+  color: #f4c613;
+  font-size: 22px;
+  padding-top: 100px;
+  font-family: 'Raleway';
+}

@@ -1,0 +1,5 @@
+@media only screen and (max-width: 992px) {
+    .media-query {
+      padding-top: 20px;
+    }
+  }

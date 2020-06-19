@@ -1,0 +1,47 @@
+.card{
+    border-color: transparent;
+    transition: all .3s ease-in-out;
+}
+.card-footer{
+    background: transparent;
+    border-top:transparent ;
+    transition: all .3s ease-in-out;
+}
+.card:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.2);
+}
+.card-footer:hover{
+    Background-color: #f4c613;
+
+}
+.img-container{
+  
+    position: relative;
+    overflow: hidden;
+}
+.card-img-top{
+    transition: all .3s ease-in-out;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    
+}
+.cart-btn{
+   position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px 8px;
+    border-radius: 10px 0 0 0;
+    background-color: #1198FB;
+    color: white;
+    border: none;
+    transform: translate(100%,100%);
+    transition: all .3s ease-in-out;
+}
+.cart-btn:hover{
+    color: #f4c613;
+}
+.img-container:hover .cart-btn{
+    transform: translate(0%,0%);
+}
